@@ -30,7 +30,7 @@ export default function HeroSection() {
                             Découvrez notre collection exclusive de vêtements et accessoires. Des
                             créations uniques pour un style qui vous ressemble.{" "}
                             <span className="hidden sm:block">
-                                Chaque pièce raconte une histoire d'élégance et de raffinement.
+                                Chaque pièce raconte une histoire d&apos;élégance et de raffinement.
                             </span>
                         </p>
                         <div className="flex gap-6 mt-10">

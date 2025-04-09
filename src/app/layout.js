@@ -1,6 +1,5 @@
-import { Geist, Poppins, Poppins } from "next/font/google";
+import { Geist, Poppins } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
 import {  ArticlesContext } from "@/Components/Context/ArticlesContext";
 import Footer from "@/Components/GeneralComponents/Footer";
 import { Suspense } from "react";

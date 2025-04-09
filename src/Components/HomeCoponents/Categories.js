@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 
 const categories = [
@@ -15,7 +16,9 @@ export default function CategoriesComponent() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {categories.map((category, index) => (
             <div key={index} className="relative group rounded-lg overflow-hidden shadow-md">
-              <img
+              <Image
+                height={400}
+                width={400}
                 src={category.image}
                 alt={category.name}
                 className="w-full h-48 object-cover transition duration-300 group-hover:scale-115"

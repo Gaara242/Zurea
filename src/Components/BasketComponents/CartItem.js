@@ -1,5 +1,6 @@
 import { FaTrash } from "react-icons/fa"
 import { motion } from "framer-motion"
+import Image from "next/image";
 
 export function CartItem({ item, onRemove }) {
 
@@ -15,7 +16,9 @@ export function CartItem({ item, onRemove }) {
         <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
             <div className="flex items-center space-x-6">
                 <div className="relative w-24 h-24 flex-shrink-0">
-                    <img
+                    <Image
+                        height={500}
+                        width={500}
                         src={item.image}
                         alt={item.name}
                         className="rounded-lg object-cover w-full h-full"

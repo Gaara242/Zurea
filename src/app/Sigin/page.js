@@ -106,7 +106,7 @@ export default function Logg() {
                     <p className="text-center text-sm text-gray-600">
                         Pas de compte ?{" "}
                         <Link href="/Sigin-up" className="text-purple-600 hover:text-purple-500">
-                            S'inscrire
+                            S&apos;inscrire
                         </Link>
                     </p>
                 </form>

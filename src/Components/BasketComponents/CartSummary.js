@@ -9,7 +9,7 @@ export function CartSummary({ total }) {
                     <span>Sous-total</span>
                     <span>{total.toLocaleString()} XAF</span>
                 </div>
-                <div className="flex justify-between text-gray-600">
+                <div className="flex justify-between text-gray-500">
                     <span>Livraison</span>
                     <span>Gratuite</span>
                 </div>

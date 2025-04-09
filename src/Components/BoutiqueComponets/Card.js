@@ -6,6 +6,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { useState } from "react";
 import { ProductModal } from "./ProductModal";
+import Image from "next/image";
 
 
 // Animations constantes
@@ -95,7 +96,9 @@ export function Card({ article }) {
         whileHover="hover"
         className="bg-white border-4 border-black rounded-lg shadow-md max-w-60 overflow-hidden"
       >
-        <img 
+        <Image
+          height={500}
+          width={500}
           src={`https://backgi.eces-code.com/${article.image}`}
           alt={article.title}
           className="h-[230px] w-full object-cover"

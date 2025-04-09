@@ -5,6 +5,7 @@ import { Navbar } from "@/Components/HeroComponents/navbar";
 import { CartItem } from "@/Components/BasketComponents/CartItem";
 import { CartSummary } from "@/Components/BasketComponents/CartSummary";
 import Link from "next/link";
+import Image from 'next/image';
 
 export default function Basket() {
     const [cartItems, setCartItems] = useState([]);
@@ -47,7 +48,9 @@ export default function Basket() {
                 
                 {cartItems.length === 0 ? (
                     <div className="text-center py-16 bg-white rounded-lg shadow-sm">
-                        <img 
+                        <Image
+                            height={400}
+                            width={400}
                             src="/empty-cart.png" 
                             alt="Panier vide"
                             className="w-32 h-32 mx-auto mb-4"

@@ -1,4 +1,7 @@
+"user client"
+
 import { motion, AnimatePresence } from "framer-motion"
+import Image from "next/image";
 import { IoClose } from "react-icons/io5";
 
 
@@ -67,7 +70,9 @@ export function ProductModal({ article, isOpen, onClose }) {
                 variants={MODAL_ANIMATIONS.image}
                 className="relative h-[300px] md:h-full"
               >
-                <img 
+                <Image
+                  height={400}
+                  width={400}
                   src={`https://backgi.eces-code.com/${article.image}`}
                   alt={article.title}
                   className="w-full h-full object-cover"

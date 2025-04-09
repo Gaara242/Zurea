@@ -3,6 +3,7 @@
 import { HeroSection1 } from "@/Components/GeneralComponents/HeroSection1";
 import { Navbar } from "@/Components/HeroComponents/navbar";
 import { ContactForm } from "../contact/contactForm"
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -92,7 +93,7 @@ function TimelineCard({ image, year, description }) {
     <div className="flex-shrink-0 w-[280px] relative  border-black border-2 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden h-full">
         <div className="relative h-[200px]">
-          <img src={image} className="w-full h-full object-cover" alt={year} />
+          <Image height={400} width={400} src={image} className="w-full h-full object-cover" alt={year} />
           <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2">
             <div className="bg-purple-900 border-black border-2 rounded-full p-1 shadow-lg">
               <div className="bg-burlywood rounded-full w-12 h-12 flex items-center justify-center">

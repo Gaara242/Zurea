@@ -23,7 +23,7 @@ export default function Boutique() {
                         <div className="flex flex-col items-center text-center mb-12 animate-fade-in">
                             <h1 className="text-4xl font-bold text-gray-900 mb-4">Notre Boutique</h1>
                             <p className="text-gray-600 max-w-2xl leading-relaxed">
-                                Découvrez notre sélection exclusive d'articles. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Découvrez notre sélection exclusive d&apos;articles. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
                             
                             <div className="flex space-x-6 mt-6">

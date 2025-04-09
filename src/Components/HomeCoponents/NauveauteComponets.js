@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 import { FiShoppingCart,  FiStar, FiChevronRight } from 'react-icons/fi'
 
@@ -47,7 +48,9 @@ const Nouveaute = ({props}) => {
     return(
         <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-1000 hover:transform hover:-translate-y-5 " style={{marginTop:props.style}}>
               <div className="h-64 bg-gray-300">
-                <img
+                <Image
+                  height={400}
+                  width={400}
                   src={props.image}
                   alt={props.name}
                   className="w-full h-full object-cover"
