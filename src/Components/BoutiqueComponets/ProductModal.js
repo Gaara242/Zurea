@@ -1,5 +1,7 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion"
 import { IoClose } from "react-icons/io5";
+
+
 
 const MODAL_ANIMATIONS = {
   overlay: {

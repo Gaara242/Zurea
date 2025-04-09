@@ -1,5 +1,5 @@
-import { FaTrash } from "react-icons/fa";
-import { motion } from "framer-motion";
+import { FaTrash } from "react-icons/fa"
+import { motion } from "framer-motion"
 
 export function CartItem({ item, onRemove }) {
 

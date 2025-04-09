@@ -1,10 +1,11 @@
 "use client"
+
 import { useContext } from "react";
 import { Card } from "@/Components/BoutiqueComponets/Card";
 import { aricleContext } from "@/Components/Context/ArticlesContext";
 import Loader from "@/Components/GeneralComponents/Loader";
 import { Navbar } from "@/Components/HeroComponents/navbar";
-import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa"
 
 export default function Boutique() {
     const { articles, loading, error } = useContext(aricleContext)

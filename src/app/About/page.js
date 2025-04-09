@@ -2,7 +2,7 @@
 
 import { HeroSection1 } from "@/Components/GeneralComponents/HeroSection1";
 import { Navbar } from "@/Components/HeroComponents/navbar";
-import { ContactForm } from "../contact/contactForm";
+import { ContactForm } from "../contact/contactForm"
 
 export default function About() {
   return (
@@ -82,7 +82,7 @@ function Section({ title, content }) {
       </h2>
       <p className="text-gray-700 leading-relaxed text-center">{content}</p>
     </div>
-  );
+  )
 }
 
 
