@@ -9,7 +9,6 @@ export default function HeroSection() {
 
     return (
         <>
-            <div className="flex justify-end p-1 gap-3 bg-purple-500"></div>
             <div
                 className="bg-gray-500 min-h-screen bg-cover bg-center"
                 style={{ backgroundImage: "url('/Images/background.webp')" }}

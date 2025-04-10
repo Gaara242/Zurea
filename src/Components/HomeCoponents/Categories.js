@@ -2,10 +2,10 @@ import Image from "next/image"
 
 
 const categories = [
-    { name: "Électronique", image: "/images/slider3.png" },
-    { name: "Mode", image: "/images/vendre-vetements.webp" },
-    { name: "Sport", image: "/images/p6.png" },
-    { name: "Beauté", image: "/images/ecologique.jpeg" }
+    { name: "Électronique", image: "/Images/slider3.png" },
+    { name: "Mode", image: "/Images/vendre-vetements.webp" },
+    { name: "Sport", image: "/Images/p6.png" },
+    { name: "Beauté", image: "/Images/ecologique.jpeg" }
   ]
 
 export default function CategoriesComponent() {

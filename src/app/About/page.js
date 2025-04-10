@@ -37,22 +37,22 @@ export default function About() {
             <div className="overflow-x-auto scrollbar-hide">
               <div className="flex gap-6 p-4 min-w-min">
                 <TimelineCard 
-                  image="/images/group-afro-americans.jpg"
+                  image="/Images/group-afro-americans.jpg"
                   year="2023"
                   description="ZUREA a été fondée en 2023 par Dev.Com une équipe de passionnés de la mode et du commerce en ligne."
                 />
                 <TimelineCard 
-                  image="/images/ecologique.jpeg"
+                  image="/Images/ecologique.jpeg"
                   year="2024"
                   description="En 2024, ZUREA a lancé une nouvelle gamme de produits écologiques pour répondre à la demande croissante."
                 />
                 <TimelineCard 
-                  image="/images/portrait-demenagement.jpg"
+                  image="/Images/portrait-demenagement.jpg"
                   year="2025"
                   description="En 2025, ZUREA a déménagé dans de nouveaux locaux pour mieux servir nos clients."
                 />
                 <TimelineCard 
-                  image="/images/chef-entreprise.jpeg"
+                  image="/Images/chef-entreprise.jpeg"
                   year="Jack"
                   description="Jack est le fondateur et PDG de ZUREA. Il est dévoué à l'innovation et à la satisfaction des clients."
                 />

@@ -9,20 +9,20 @@ const Products = [
       price: 129.99,
       oldPrice: 159.99,
       style: '0',
-      image: "/images/Bluetooth-a-reduction-de-bruit-768x480.webp"
+      Image: "/images/Bluetooth-a-reduction-de-bruit-768x480.webp"
     },
     {
       name: "Vetements",
       price: 199.99,
       oldPrice: 249.99,
       style: '100px',
-      image: "/images/vendre-vetements.webp"
+      Image: "/images/vendre-vetements.webp"
     },
     {
       name: "Iphone 16",
       price: 899.99,
       style: '0',
-      image: "/images/Capture_decran_2024-09-09_a_19.42.06.png"
+      Image: "/images/Capture_decran_2024-09-09_a_19.42.06.png"
     }
   ]
 
@@ -51,7 +51,7 @@ const Nouveaute = ({props}) => {
                 <Image
                   height={400}
                   width={400}
-                  src={props.image}
+                  src={props.Image}
                   alt={props.name}
                   className="w-full h-full object-cover"
                 />
