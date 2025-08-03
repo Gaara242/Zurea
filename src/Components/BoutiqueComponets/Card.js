@@ -8,8 +8,6 @@ import { useState } from "react";
 import { ProductModal } from "./ProductModal";
 import Image from "next/image";
 
-
-// Animations constantes
 const ANIMATIONS = {
   card: {
     hidden: { opacity: 0, y: 50 },
